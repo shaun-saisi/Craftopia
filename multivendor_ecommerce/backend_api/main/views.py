@@ -47,3 +47,8 @@ class OrderDetail(generics.ListAPIView):
 class CustomerAddressViewSet(viewsets.ModelViewSet):
     serializer_class = serializers.CustomerAddressSerializer
     queryset=models.CustomerAddress.objects.all()
+    
+    
+class ProductRatingViewSet(viewsets.ModelViewSet):
+    serializer_class = serializers.ProductRatingSerializer
+    queryset=models.ProductRating.objects.all()
