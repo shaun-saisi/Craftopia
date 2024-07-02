@@ -26,7 +26,8 @@ function App() {
 
       <main className="mt-4">
         <div className="container">
-          <h3 className="mb-4">Latest Products <a href="#" className='float-end btn btn-sm btn-warning mt-2'>View all products</a></h3>
+          <h3 className="mb-4">Latest Products <a href="#" className='float-end btn btn-sm btn-warning mt-2'>View all products
+            <i class="fa-solid fa-arrow-right-long"></i></a></h3>
           <div className="row">
             <div className="col-12 col-md-3 mb-4">
               <div className="card">
