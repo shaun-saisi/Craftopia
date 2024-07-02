@@ -7,10 +7,16 @@ router.register('address', views.CustomerAddressViewSet, basename='customeraddre
 router.register('productrating', views.ProductRatingViewSet, basename='productrating')
 
 urlpatterns = [
+    #Vendors
     path('vendors/', views.VendorList.as_view(), name='vendor-list'),
     path('vendor/<int:pk>/', views.VendorDetail.as_view(), name='vendor-detail'),
+   #Products
     path('products/', views.ProductList.as_view(), name='product-list'),
     path('product/<int:pk>/', views.ProductDetail.as_view(), name='product-detail'),
+   #Product Categories
+    path('categories/', views.CategoryList.as_view(), name='product-list'),
+    path('category/<int:pk>/', views.CategoryDetail.as_view(), name='product-detail'),
+   
     # Customer
     path('customers/', views.CustomerList.as_view(), name='customer-list'),
     path('customer/<int:pk>/', views.CustomerDetail.as_view(), name='customer-detail'),
