@@ -73,5 +73,5 @@ class ProductRating(models.Model):
     add_time=models.DateTimeField(auto_now_add=True)
     
     def __str__(self):
-        return self.reviews
+        return f'{self.rating} - {self.reviews}'
     
