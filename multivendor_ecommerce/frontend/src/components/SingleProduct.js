@@ -1,12 +1,18 @@
+import {Link} from 'react-router-dom';
+
 import logo from '../logo.svg';
+
+
 
 function SingleProduct(props) {
     return (
         <div className="col-12 col-md-3 mb-4">
               <div className="card">
-                <img src={logo} className="card-img-top" alt="..." />
+                <Link to="/product/python-timer/123">
+                    <img src={logo} className="card-img-top" alt="..." />
+                </Link>
                 <div className="card-body">
-                  <h4 className="card-title text-warning">{props.title}</h4>
+                  <h4 className="card-title text-warning"><Link to="/product/python-timer/123">{props.title}</Link></h4>
                   <h5 className="card-title">Price: <span className="text-muted">Ksh. 500</span></h5>
                 </div>
                 <div className="card-footer">

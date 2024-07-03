@@ -1,19 +1,21 @@
+import {Link} from 'react-router-dom';
 import logo from '../logo.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import SingleProduct from './SingleProduct';
+
 
 function Home(){
     return (
         <main className="mt-4">
         <div className="container">
           {/* Latest Products*/}
-          <h3 className="mb-4">Latest Products <a href="#" className='float-end btn btn-sm btn-warning mt-2'>View all products
-            <i class="fa-solid fa-arrow-right-long"></i></a></h3>
+          <h3 className="mb-4">Latest Products <Link to="/products" className='float-end btn btn-sm btn-warning mt-2'>View all products
+            <i class="fa-solid fa-arrow-right-long"></i></Link></h3>
           <div className="row mb-4">
-          <SingleProduct />
-          <SingleProduct />
-          <SingleProduct />
-          <SingleProduct />
+          <SingleProduct title="Trousers"/>
+          <SingleProduct title="Trousers"/>
+          <SingleProduct title="Trousers"/>
+          <SingleProduct title="Trousers"/>
           <SingleProduct />
           <SingleProduct />
           <SingleProduct />

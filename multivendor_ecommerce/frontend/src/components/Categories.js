@@ -11,7 +11,7 @@ function Categories(){
               <div className="card">
                 <img src={logo} className="card-img-top" alt="..." />
                 <div className="card-body">
-                  <h4 className="card-title text-warning"><Link to="/category/Clothes/1">Python</Link></h4>
+                  <h4 className="card-title text-warning"><Link to="/category/Clothes/1">Clothes</Link></h4>
                  
                 </div>
                 <div className='card-footer'>
