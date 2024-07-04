@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 
 import logo from '../logo.svg';
-
+import Sidebar from './Sidebar';
 
 
 function Dashboard(props) {
@@ -11,16 +11,8 @@ function Dashboard(props) {
         <div className='container mt-4'>
             <div className='row'>
                     <div className='col-md-3 col-12 mb-2'>
-                        <div className="list-group">
-                           
-                            <a href="#" className="list-group-item list-group-item-action active">Dashboard</a>
-                            <a href="#" className="list-group-item list-group-item-action">Orders</a>
-                            <a href="#" className="list-group-item list-group-item-action">WishList</a>
-                            <a href="#" className="list-group-item list-group-item-action">Profile</a>
-                            <a href="#" className="list-group-item list-group-item-action">Addresses</a>
-                            <a href="#" className="list-group-item list-group-item-action text-danger">Logout</a>
-                        </div>
-                        </div>
+                        <Sidebar />
+                     </div>
                     <div className='col-md-8 col-12'>
                         <div className='row'>
                             <div className='col-md-4 mb-2'>
