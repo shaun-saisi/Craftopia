@@ -16,6 +16,9 @@ function Header(){
           <li className="nav-item">
             <Link className="nav-link" aria-current="page" to="/categories">Categories</Link>
           </li>
+          <li className="nav-item">
+            <Link className="nav-link" aria-current="page" to="/checkout">Cart (5)</Link>
+          </li>
         </ul>
       </div>
     </div>
