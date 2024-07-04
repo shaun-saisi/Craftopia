@@ -10,6 +10,9 @@ import AllProducts from './components/AllProducts';
 import CategoryProducts from './components/CategoryProducts';
 import Checkout from './components/Checkout';
 
+import Register from './components/Register';
+import Login from './components/Login';
+
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
@@ -25,6 +28,9 @@ function App() {
         <Route path='/category/:category_slug/:category_id' element={<CategoryProducts />}/>
         <Route path='/product/:product_slug/:product_id' element={<ProductDetail />}/>
         <Route path='/checkout' element={<Checkout />}/>
+       
+        <Route path='/register' element={<Register />}/>
+        <Route path='/login' element={<Login />}/>
       </Routes>
     
       <Footer/>
