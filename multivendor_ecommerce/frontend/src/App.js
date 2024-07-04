@@ -12,6 +12,7 @@ import Checkout from './components/Checkout';
 
 import Register from './components/Register';
 import Login from './components/Login';
+import Dashboard from './components/Dashboard';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
@@ -31,6 +32,7 @@ function App() {
        
         <Route path='/register' element={<Register />}/>
         <Route path='/login' element={<Login />}/>
+        <Route path='/dashboard' element={<Dashboard />}/>
       </Routes>
     
       <Footer/>
