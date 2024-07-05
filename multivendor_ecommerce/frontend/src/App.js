@@ -27,6 +27,8 @@ import VendorRegister from './components/VendorRegister';
 import VendorLogin from './components/VendorLogin';
 import VendorDashboard from './components/VendorDashboard';
 import VendorSidebar from './components/VendorSidebar';
+import VendorProducts from './components/VendorProducts';
+import AddProduct from './components/AddProduct';
 
 function App() {
   return (
@@ -57,6 +59,8 @@ function App() {
         <Route path='/vendor-register' element={<VendorRegister />}/>
         <Route path='/vendor-dashboard' element={<VendorDashboard />}/>
         <Route path='/vendor-sidebar' element={<VendorSidebar />}/>
+        <Route path='/vendor-products' element={<VendorProducts />}/>
+        <Route path='/vendor-add-product' element={<AddProduct />}/>
 
 
       </Routes>

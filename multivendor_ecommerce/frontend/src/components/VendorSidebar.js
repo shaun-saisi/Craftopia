@@ -6,6 +6,7 @@ function VendorSidebar(){
                            
                             <Link to="/vendor-dashboard" className="list-group-item list-group-item-action active">Dashboard</Link>
                             <Link to="/vendor-products" className="list-group-item list-group-item-action">Products</Link>
+                            <Link to="/vendor-add-product" className="list-group-item list-group-item-action">Add Product</Link>
                             <Link to="/vendor-orders" className="list-group-item list-group-item-action">Orders</Link>
                             <Link to="/vendor-customers" className="list-group-item list-group-item-action">Customers</Link>
                           
