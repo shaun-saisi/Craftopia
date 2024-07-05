@@ -10,7 +10,7 @@ function Sidebar(){
                             <Link to="/wishlist" className="list-group-item list-group-item-action">WishList</Link>
                             <Link to="/change-password" className="list-group-item list-group-item-action">Change Password</Link>
                             <Link to="/addresses" className="list-group-item list-group-item-action">Addresses</Link>
-                            <Link to="/logout" className="list-group-item list-group-item-action text-danger">Logout</Link>
+                            <Link to="/login" className="list-group-item list-group-item-action text-danger">Logout</Link>
                         </div>
     )
 }

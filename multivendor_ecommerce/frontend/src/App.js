@@ -23,7 +23,10 @@ import AddressList from './components/AddressList';
 import AddAddress from './components/AddAddress';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import VendorRegister from './components/VendorRegister';
+import VendorLogin from './components/VendorLogin';
+import VendorDashboard from './components/VendorDashboard';
+import VendorSidebar from './components/VendorSidebar';
 
 function App() {
   return (
@@ -49,6 +52,13 @@ function App() {
         <Route path='/change-password' element={<ChangePassword />}/>
         <Route path='/addresses' element={<AddressList />}/>
         <Route path='/add-address' element={<AddAddress />}/>
+
+        <Route path='/vendor-login' element={<VendorLogin />}/>
+        <Route path='/vendor-register' element={<VendorRegister />}/>
+        <Route path='/vendor-dashboard' element={<VendorDashboard />}/>
+        <Route path='/vendor-sidebar' element={<VendorSidebar />}/>
+
+
       </Routes>
     
       <Footer/>
