@@ -29,6 +29,8 @@ import VendorDashboard from './components/VendorDashboard';
 import VendorSidebar from './components/VendorSidebar';
 import VendorProducts from './components/VendorProducts';
 import AddProduct from './components/AddProduct';
+import VendorOrders from './components/VendorOrders';
+import Customers from './components/Customers';
 
 function App() {
   return (
@@ -61,6 +63,8 @@ function App() {
         <Route path='/vendor-sidebar' element={<VendorSidebar />}/>
         <Route path='/vendor-products' element={<VendorProducts />}/>
         <Route path='/vendor-add-product' element={<AddProduct />}/>
+        <Route path='/vendor-orders' element={<VendorOrders />}/>
+        <Route path='/vendor-customers' element={<Customers />}/>
 
 
       </Routes>
