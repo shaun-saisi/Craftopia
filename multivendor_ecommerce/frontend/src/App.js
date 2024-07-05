@@ -16,6 +16,11 @@ import Dashboard from './components/Dashboard';
 import Orders from './components/Orders';
 import OrderSuccess from './components/OrderSuccess';
 import OrderFailure from './components/OrderFailure';
+import Wishlist from './components/Wishlist';
+import Profile from './components/Profile';
+import ChangePassword from './components/ChangePassword';
+import AddressList from './components/AddressList';
+import AddAddress from './components/AddAddress';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
@@ -39,6 +44,11 @@ function App() {
         <Route path='/orders' element={<Orders />}/>
         <Route path='/success' element={<OrderSuccess />}/>
         <Route path='/failure' element={<OrderFailure />}/>
+        <Route path='/wishlist' element={<Wishlist />}/>
+        <Route path='/profile' element={<Profile />}/>
+        <Route path='/change-password' element={<ChangePassword />}/>
+        <Route path='/addresses' element={<AddressList />}/>
+        <Route path='/add-address' element={<AddAddress />}/>
       </Routes>
     
       <Footer/>
