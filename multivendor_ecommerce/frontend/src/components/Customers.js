@@ -24,6 +24,7 @@ function Customers() {
                                             <th>Email</th>
                                             <th>Mobile</th>
                                             <th>Action</th>
+                                           
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -36,8 +37,9 @@ function Customers() {
                                             <td>
                                                07468689874
                                             </td>
-                                            <td>
-                                                <button className='btn btn-danger btn-sm'> Remove</button>
+                                            <td><button className='btn btn-primary btn-sm ms-2'> Orders</button>
+                                                <button className='btn btn-danger btn-sm ms-2'> Remove From List</button>
+                                        
                                             </td>
                                         </tr>
 
@@ -51,7 +53,9 @@ function Customers() {
                                                07468689874
                                             </td>
                                             <td>
-                                                <button className='btn btn-danger btn-sm'> Remove</button>
+                                            <button className='btn btn-primary btn-sm ms-2'> Orders</button>
+                                                <button className='btn btn-danger btn-sm ms-2'> Remove From List</button>
+                                                
                                             </td>
                                         </tr>
                                        
