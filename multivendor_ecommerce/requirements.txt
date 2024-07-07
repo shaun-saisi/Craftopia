@@ -7,3 +7,4 @@ djangorestframework
 djangorestframework-simplejwt
 httpie
 react-router-dom
+django-cors-headers
